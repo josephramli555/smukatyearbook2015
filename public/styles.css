@@ -1,0 +1,117 @@
+
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #a8e6cf;
+background-image: url("https://www.transparenttextures.com/patterns/grid-me.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.heading{
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 4vw;
+    text-align: center;
+    letter-spacing: 8px;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+.navbar{
+    font-family: 'Cabin Condensed', sans-serif;
+    background-color: #ffaaa5;
+    color: whitesmoke;
+}
+
+.nav-btn{
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 10px;
+    letter-spacing: 1.5px;
+}
+
+
+.navbar-brand{
+    letter-spacing: 1.5px;
+}
+
+.card-wrapper{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.form-control{
+    display: inline-block;
+    width: 40%;
+}
+
+.form-wrapper{
+    text-align: center;
+}
+
+.active-pink-2 input.form-control[type=text]:focus:not([readonly]) {
+    border-bottom: 4px solid #ffd3b6;
+    box-shadow: 0 1px 0 0 #ffd3b6;
+}
+
+.input-search{
+    border-bottom: 4px solid #ffd3b6;
+    background-color:#a8e6cf ;
+    text-align: center;
+}
+
+.input-search:focus{
+    background-color:#a8e6cf;
+    font-family: 'Cabin Condensed', sans-serif;
+    letter-spacing: 2px;
+
+
+}
+
+.input-search::placeholder{
+    letter-spacing: 2px;
+    font-family: 'Cabin Condensed', sans-serif;
+    color:#808080;
+}
+
+
+/* SearchBOX */
+
+/* Quotes */
+
+
+.quotes{
+    text-align: center;
+    padding: 50px 0 50px 0 ;
+    font-family: 'Cabin Condensed', sans-serif;
+    letter-spacing: 2px;
+    font-size: 2.5vw;
+    background-color: white;
+    color: black;
+background-image: url("https://www.transparenttextures.com/patterns/grid-me.png");
+}
+
+.quotes-author{
+    font-size: 1.5vw;
+    color:dimgrey;
+}
+/* Footer */
+
+
+.fa-2x{
+    color: white;
+    padding: 20px 0 20px 0;
+}
+
+hr{
+    width:10%;
+    border:dotted #EAF6F6 6px;
+    border-bottom: none;
+    margin:10px auto;
+}
+
+.footer{
+    font-family: 'Cabin Condensed', sans-serif;
+    letter-spacing: 2px;
+}
